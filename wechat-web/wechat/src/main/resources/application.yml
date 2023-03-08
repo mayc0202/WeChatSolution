@@ -1,0 +1,56 @@
+server:
+  port: 8080
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: net.sourceforge.jtds.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/crm?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    url: jdbc:jtds:sqlserver://localhost:1433/bokenew
+    username: sa
+    password: sa
+
+  application:
+    name: wechat  #服务名称
+
+  #配置redis
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: #密码
+    database: 0 #数据库默认索引为0
+
+# JWT配置
+jwt:
+  # 密钥盐
+  token-Secret: 123456qwertyuiop789
+  # 过期时间 30分钟 1800000
+  expiration-Time: 360000 # 1小时
+
+#日志
+logging:
+  level:
+    com.coupon: debug
+  pattern:
+    console: "%d %clr(%5p) ---- [%16t] %clr(%-40.40c){cyan} : %m %n"
+  file: #文件记录
+    name:
+  #回滚日志
+  logback:
+    rollingpolicy:
+      #每个日志文件最大上限
+      max-file-size: 100MB
+      #命名
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
+
+#mybatis-plus配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #mybatis-plus日志实现类
+  global-config:
+    db-config:
+      id-type: auto #主键自增
+      table-prefix: #数据表前缀
+      update-strategy: not_empty #配置mybatis-plus
