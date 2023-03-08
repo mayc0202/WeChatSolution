@@ -1,0 +1,16 @@
+/* 浮动 */
+.flex {
+    display: flex;
+}
+/* 换行 */
+.wrap {
+    flex-wrap: wrap;
+}
+/* 均匀分配 */
+.around {
+    justify-content: space-around;
+}
+/* 两边分配 */
+.between {
+    justify-content: space-between;
+}

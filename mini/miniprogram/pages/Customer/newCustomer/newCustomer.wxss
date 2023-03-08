@@ -1,0 +1,30 @@
+/* pages/Customer/newCustomer/newCustomer.wxss */
+body {
+    
+}
+
+/* 调整箭头 */
+.left- {
+    margin-left: -60rpx;
+}
+
+.top- {
+    margin-top: 10rpx;
+}
+
+.down- {
+    margin-bottom: 30rpx;
+}
+
+.mar-left {
+    margin-left: 18rpx;
+}
+
+/* 箭头样式 */
+.arow-color {
+    border-color:rgb(206, 204, 204);
+    /* margin-left: 440rpx; */
+    width: 16rpx;
+    height: 16rpx;
+}
+

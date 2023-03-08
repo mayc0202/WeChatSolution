@@ -1,0 +1,157 @@
+/**app.wxss**/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+button {
+    background: initial;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button::after {
+    border: none;
+}
+
+
+page {
+    background: rgb(247, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* 浮动 */
+.flex {
+    display: flex;
+}
+
+/* 换行 */
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* 均匀分配 */
+.around {
+    justify-content: space-around;
+}
+
+/* 两边分配 */
+.between {
+    justify-content: space-between;
+}
+
+/* 箭头样式 */
+.arrow {
+    width: 20rpx;
+    height: 20rpx;
+    background-color: transparent;
+    /* 模块背景为透明 */
+    border-color: #ffffff;
+    /*颜色 */
+    border-style: solid;
+    border-width: 6rpx 6rpx 0 0;
+}
+
+/* 左箭头 */
+.arrow-left {
+    transform: rotate(225deg);
+    /*箭头方向可以自由切换角度*/
+}
+
+/* 右箭头 */
+.arrow-right {
+    transform: rotate(45deg);
+    /*箭头方向可以自由切换角度*/
+}
+
+/* 下箭头 */
+.arrow-down {
+    transform: rotate(135deg);
+}
+
+/* 上箭头 */
+.arrow-up {
+    transform: rotate(-45deg);
+}
+
+/* 居中 */
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+/* 文本框样式 */
+.input-style {
+    width: 500rpx;
+    height: 40rpx;
+    border-bottom: rgb(133, 132, 132) 1rpx inset;
+    text-align: left;
+}
+
+.placeholder-class {
+    color: rgb(209, 211, 212);
+}
+
+/* 底部悬浮 */
+.fiex_bottom {
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    border: none;
+    bottom: -0.1%;
+    width: 75%;
+    height: 64rpx;
+    padding: 30rpx 100rpx 60rpx 100rpx;
+    background-color: white;
+}
+
+/* 按钮样式 */
+.btn {
+    width: 200rpx;
+    height: 60rpx;
+    padding: 10rpx;
+    border-radius: 20rpx;
+    color: white;
+    text-align: center;
+    line-height: 60rpx;
+    border-style: outset;
+}
+/* 添加按钮 */
+.btn-add {
+    background-color: rgb(58, 125, 250);
+}
+/* 保存按钮 */
+.btn-save {
+    background-color: rgb(49, 206, 56);
+}
+
+/* 文字样式 */
+.title1 {
+    font-size: 48rpx;
+}
+
+.title2 {
+    font-size: 36rpx;
+}
+
+.title3 {
+    font-size: 32rpx;
+}
+
+.title4 {
+    font-size: 28rpx;
+}
+
+.title5 {
+    font-size: 24rpx;
+}
+
+.title6 {
+    font-size: 18rpx;
+}

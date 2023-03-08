@@ -1,0 +1,10 @@
+{
+    "setting": {
+        "compileHotReLoad": true,
+        "urlCheck": false
+    },
+    "condition": {},
+    "description": "",
+    "projectname": "mini",
+    "libVersion": "2.24.4"
+}

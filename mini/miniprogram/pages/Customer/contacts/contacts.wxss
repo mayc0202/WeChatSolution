@@ -1,0 +1,139 @@
+/* pages/Customer/contacts/contacts.wxss */
+/* 调整箭头 */
+.left- {
+    margin-left: -60rpx;
+}
+
+.top- {
+    margin-top: 10rpx;
+}
+
+.bot- {
+    margin-bottom: 10rpx;
+}
+
+.down- {
+    margin-bottom: 30rpx;
+}
+
+.mar-left {
+    margin-left: 18rpx;
+}
+
+/* 添加联系人按钮 */
+.addContacts {
+    background-color: white;
+    text-align: center;
+    line-height: 80rpx;
+    margin: 30rpx 40rpx;
+    height: 80rpx;
+    color: rgb(52, 114, 248);
+    font-size: 32rpx;
+    border-radius: 10rpx;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* 联系人列表 */
+.list {
+    padding: 40rpx;
+    margin-bottom: 120rpx;
+}
+
+.contact-item {
+    background-color: white;
+    padding: 30rpx;
+    margin-bottom: 20rpx;
+    border-radius: 10rpx;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.key {
+    background-color: rgb(96, 155, 245);
+    width: 20rpx;
+    height: 20rpx;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10rpx 0 20rpx 0;
+    left: 40rpx;
+    margin-top: -30rpx;
+}
+
+.logo {
+    width: 40rpx;
+    height: 40rpx;
+    color: rgb(197, 197, 197);
+    font-size: 40rpx;
+    /* margin-top: 25rpx; */
+    margin-left: 30rpx;
+    margin-top: -40rpx;
+    margin-right: -36rpx;
+}
+
+.check-style {
+    margin-left: 30rpx;
+    margin-top: 20rpx;
+}
+
+/* 箭头样式 */
+.arow-color {
+    border-color:rgb(206, 204, 204);
+    /* margin-left: 440rpx; */
+    width: 16rpx;
+    height: 16rpx;
+}
+
+/* 添加联系人弹窗 */
+.close {
+    color: white;
+    font-size: 50rpx;
+    position: absolute;
+    left: 92%;
+    top: -20rpx;
+}
+
+.addWindow-0 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(41, 41, 41, 0.5);
+     /* 屏幕划不动 */
+     touch-action:none; 
+}
+
+.addWindow-1 {
+    margin: 0 40rpx;
+    background-color: white;
+    border-radius: 10rpx;
+    position: absolute;
+    z-index: 9;
+    bottom: 360rpx;
+    left: 10rpx;
+    border-radius: 20rpx;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    align-items: center;
+    flex-direction: column;
+    /* 屏幕划不动 */
+    touch-action:none; 
+}
+
+.contact-title {
+    color: white;
+    background-color: rgb(52, 114, 248);
+    text-align: center;
+    margin-bottom: 20rpx;
+    margin-top: -14rpx;
+    padding: 10rpx 0;
+    border-radius: 20rpx 20rpx 0 0;
+}
+
+.contact-body {
+    padding: 30rpx 30rpx 0 30rpx;
+}
+
+/* 添加按钮 */
+.addbtn {
+    background-color: cornflowerblue;
+}

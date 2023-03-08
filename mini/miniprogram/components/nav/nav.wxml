@@ -1,0 +1,13 @@
+<view class="flex">
+   <view class="around">
+      <view>
+         返回
+      </view>
+      <view>
+         首页
+      </view>
+      <view>
+         忽视
+      </view>
+   </view>
+</view>

@@ -1,0 +1,49 @@
+/* 调整箭头 */
+.left- {
+    margin-left: -60rpx;
+}
+
+.input- {
+    background-color: white;
+    border-radius: 10rpx;
+    height: 60rpx;
+    width: 450rpx;
+    padding-left: 20rpx;
+    /* text-align: center; */
+    line-height: 60rpx;
+    border: 1rpx rgb(213, 237, 250) inset;
+}
+
+.list {
+    padding: 0 40rpx;
+    margin-bottom: 100rpx;
+}
+
+.list-item {
+    background-color: white;
+    padding: 30rpx;
+    margin-bottom: 20rpx;
+    border-radius: 10rpx;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.header {
+    padding: 40rpx 40rpx 40rpx 40rpx;
+}
+
+.search {
+    width: 60rpx;
+    height: 60rpx;
+    margin-left: 10rpx;
+}
+
+.addbtn {
+    background-color: rgb(96, 155, 245);
+    width: 160rpx;
+    height: 60rpx;
+    text-align: center;
+    line-height: 60rpx;
+    color: white;
+    border-radius: 20rpx;
+    border-style: outset;
+}
